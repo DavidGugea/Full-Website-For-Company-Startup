@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Register
+        </title>
+        <link href="css/register.css" rel="stylesheet" type="text/css">
+        <meta charset="utf-8">
+        <meta description="Service Website">
+    </head>
+    <body>
+        <!-- THE NAVBAR/ BEGINNING PART -->
+        <nav id="navbar">
+            <h3><a href="#" class="navbar-title-button">Python GmbH</a></h3>
+            <ul>
+                <li><a href="service.html" class="link-button">Service</a></li>
+                <li><a href="register.html" class="link-button">Register</a></li>
+                <li><a href="login.html" class="link-button" target='_blank'>Login</a></li>
+                <li><a href="index.html" class="link-button">Home</a></li>
+            </ul>
+        </nav>
+        <!-- THE NAVBAR/ BEGINNING PART -->
+
+        <!-- Title -->
+
+        <header id='main-header'>
+            <h1>
+                <a href="#" class="main-header-title-button">
+                    Register
+                </a>
+            </h1>
+        </header>
+    
+        <!-- Title -->
+
+        <!-- HERE IS WHERE THE CONTAINER STARTS -->
+        <div class="container">
+            <!-- The Service INPUTS part -->
+            <form action="/cgi-bin/Python36/CGI_SCRIPTING_SQL_LOGIN_PROJECT_AGAIN/register.cgi">
+                <input type="text" name="first_name" placeholder="First name" class="input-box">
+                <input type="text" name="second_name" placeholder = "Second name" class="input-box">
+                <br><br>
+                <input type="text" name="street_name" placeholder = "Street name" class="input-box">
+                <input type="text" name="city_name" placeholder = "City name" class="input-box">
+                <br><br>
+                <input type="number" maxlength = "5" minlength = "5" name="post_code" placeholder = "Post code" class="input-box" >
+                <input type="email" name="email" placeholder = "Email" class="input-box">
+                <br><br>
+                <input type="text" name="username" placeholder = "Username" class="input-box">
+                <input type="password" name="password" placeholder = "Password" class="input-box">
+                <br><br>
+                <input type="submit" value="Submit" class="submit-button">
+            </form>
+            <!-- The Service INPUTS part -->
+        </div> <!-- HERE IS WHERE THE CONTAINER ENDS -->
+    </body>
+</html>

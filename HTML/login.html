@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Login
+        </title>
+        <link href="css/login.css" rel="stylesheet" type="text/css">
+        <meta charset="utf-8">
+        <meta description="Service Website">
+    </head>
+    <body>
+        <!-- THE NAVBAR/ BEGINNING PART -->
+        <nav id="navbar">
+            <h3><a href="#" class="navbar-title-button">Python GmbH</a></h3>
+            <ul>
+                <li><a href="service.html" class="link-button">Service</a></li>
+                <li><a href="register.html" class="link-button">Register</a></li>
+                <li><a href="login.html" class="link-button" target='_blank'>Login</a></li>
+                <li><a href="index.html" class="link-button">Home</a></li>
+            </ul>
+        </nav>
+        <!-- THE NAVBAR/ BEGINNING PART -->
+
+        <!-- Title -->
+
+        <header id='main-header'>
+            <h1>
+                <a href="#" class="main-header-title-button">
+                    Login !
+                </a>
+            </h1>
+        </header>
+    
+        <!-- Title -->
+
+        <div class="container">
+            <!-- Login Inputs -->
+            <form action="/cgi-bin/Python36/CGI_SCRIPTING_SQL_LOGIN_PROJECT_AGAIN/login.cgi">
+                <input type="text" name="username" placeholder="Username" class="input-box" autofocus>
+                <input type="password" name="password" placeholder="Password" class="input-box">
+                <input type="password" name="UEC_code" placeholder="UEC (just for workers)" class="input-box">
+                <br><br>
+                <input type="submit" value="Submit" class="submit-button">
+            </form>
+            <!-- Login Inputs -->
+        </div>
+    </body>
+</html> 

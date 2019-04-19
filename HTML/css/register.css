@@ -1,0 +1,175 @@
+body{
+    margin: 0px;
+}
+/* Set margins to 0 for body
+
+/* GLOBAL CLASSES */
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.clr{
+    clear: both;
+}
+
+/* GLOBAL CLASSES */
+
+/* THE NAVBAR */
+
+#navbar{
+    background-color: #333;
+    position: relative;
+    margin: 0px;
+    width: 100%;
+}
+#navbar h3{
+    margin: 0px;
+}
+    /*navbar title button*/
+.navbar-title-button{
+    text-decoration: none;
+    margin-bottom: 0px;
+    text-transform: none;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar-title-button:hover{
+    color: #999;
+}
+.navbar-title-button:active{
+    color: chartreuse;
+}
+    /*navbar title button*/
+
+    /* navbar links */
+#navbar ul{
+    list-style: none;
+}
+#navbar ul li{
+    display: inline;
+    position: absolute;
+}
+#navbar ul li:nth-child(1){
+    right: 0%;
+    top: 0px;
+}
+#navbar ul li:nth-child(2){
+    right: 10%;
+    top: 0px;
+}
+#navbar ul li:nth-child(3){
+    right: 20%;
+    top: 0px;
+}
+#navbar ul li:nth-child(4){
+    right: 30%;
+    top: 0px;
+}
+    /* navbar links */
+
+    /* the link button */
+.link-button{
+    text-decoration: none;
+    text-transform: none;
+    color: #fff;
+    font-family: cursive;
+}
+.link-button:hover{
+    color: #888;
+    border: #999 solid;
+}
+.link-button:active{
+    color: rgb(55, 113, 167);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+    /* the link button
+/* THE NAVBAR */  
+
+/* TITLE */
+#main-header{
+    width: 100%;
+    margin: 0px;
+    margin-top: 5px;
+    margin-bottom: 80px;
+}
+#main-header h1{
+    text-align: center;
+}
+.main-header-title-button{
+    text-decoration: none;
+    text-transform: none;
+    color: #333;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main-header-title-button:hover{
+    font-family: cursive;
+    color: rosybrown;
+}
+.main-header-title-button:active{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #999;
+}
+/* TITLE */
+
+.container form{
+    text-align: center;
+}
+    /* BOXES */
+.input-box{
+    margin: 0px;
+    border: 3px #999 solid;
+    background-color: #333;
+    color: #fff;
+    font-family: cursive;
+    padding: 5px;
+    width: 200px;
+}
+.input-box[name="first_name"]{
+    border-radius: 15px;
+}
+.input-box[name="city_name"]{
+    border-radius: 15px;
+}
+.input-box[type="number"]{
+    border-radius: 15px;
+}
+.input-box[type="password"]{
+    border-radius: 15px;
+}
+.input-box:hover{
+    border: 3px #333 solid;
+    background-color: #999;
+    color: #fff;
+}
+.input-box:active{
+    border: 3px #999 solid;
+    background-color: #444 solid;
+    color: rgb(17, 138, 112);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+    /* BOXES */
+
+    /* SUBMIT BUTTON */
+.submit-button{
+    margin: 0px;
+    border: 3px #999 solid;
+    background-color: #222;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+}
+.submit-button:hover{
+    font-family: cursive;
+    border: 3px #222 solid;
+    color: #999;
+    background-color: #fff;
+    padding: 11px;
+}
+.submit-button:active{
+    font-family: impact;
+    border: 3px #555 solid;
+    color: dimgray;
+    background-color: dodgerblue;
+}
+    /* SUBMIT BUTTON */

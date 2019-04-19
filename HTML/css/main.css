@@ -1,0 +1,231 @@
+body{
+    margin: 0px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.clr{
+    clear: both;
+}
+a{
+    text-decoration: none;
+    text-transform: none;
+}
+#main-header{
+    margin: 0px;
+    width: 100%;
+    background-color: #999;
+    padding: 5px;
+    position: relative;
+    margin-bottom: 40px;
+}
+#main-header h1{
+    text-align: center;
+}
+#title-button{
+    text-decoration: none;
+    text-transform: none;
+    color: #222;
+    background-color: #fff;
+    border: 5px dimgray solid;
+    padding: 10px;
+    font-size: 45px;
+}
+#title-button:hover{
+    border-radius: 15px;
+    background-color: #444;
+    color: dodgerblue;
+    border: 5px #111 solid;
+    padding: 15px;
+}
+#title-button:active{
+    background-color: dodgerblue;
+    color: #111;
+    border: #444 solid 5px;
+    padding: 15px;
+}
+#main-navbar{
+    background-color: #333;
+}
+#main-navbar ul{
+    list-style: none
+}
+#main-navbar ul li:nth-child(1){
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    text-decoration: none;
+    text-transform: none;
+    background-color: dodgerblue;
+    color: #222;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-top: 5px #111 solid;
+    border-right: 5px #111 solid;
+    padding: 5px;
+}
+#main-navbar ul li:nth-child(1):hover{
+    background-color: rgb(231, 109, 61);
+    color: dodgerblue;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-top: rgb(177, 192, 41);
+    border-right: rgb(177, 192, 41);
+    text-decoration: none;
+    text-transform: none;
+    padding: 5px;
+}
+#main-navbar ul li:nth-child(2){
+    position: absolute;
+    bottom: 0px;
+    left: 25%;
+    text-decoration: none;
+    text-transform: none;
+    background-color: dodgerblue;
+    color: #222;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-top: 5px #111 solid;
+    border-right: 5px #111 solid;
+    border-left: 5px #111 solid;
+    padding: 5px;
+}
+#main-navbar ul li:nth-child(2):hover{
+    background-color: rgb(231, 109, 61);
+    color: dodgerblue;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-top: rgb(59, 126, 180);
+    border-right: rgb(59, 126, 180);
+    border-left: rgb(59, 126, 180);
+    text-decoration: none;
+    text-transform: none;
+    padding: 5px;
+}
+#main-navbar ul li:nth-child(3){
+    position: absolute;
+    bottom: 0px;
+    left: 75%;
+    text-decoration: none;
+    text-transform: none;
+    background-color: dodgerblue;
+    color: #222;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-top: 5px #111 solid;
+    border-right: 5px #111 solid;
+    border-left: 5px #111 solid;
+    padding: 5px;
+}
+#main-navbar ul li:nth-child(3):hover{
+    background-color: rgb(231, 109, 61);
+    color: dodgerblue;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-top: rgb(59, 126, 180);
+    border-right: rgb(59, 126, 180);
+    border-left: rgb(59, 126, 180);
+    text-decoration: none;
+    text-transform: none;
+    padding: 5px;
+}
+#main-navbar ul li:nth-child(4){
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    text-decoration: none;
+    text-transform: none;
+    background-color: dodgerblue;
+    color: #222;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-top: 5px #111 solid;
+    border-left: 5px #111 solid;
+    padding: 5px;
+}
+#main-navbar ul li:nth-child(4):hover{
+    background-color: rgb(231, 109, 61);
+    color: dodgerblue;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-top: rgb(59, 126, 180);
+    border-left: rgb(59, 126, 180);
+    text-decoration: none;
+    text-transform: none;
+    padding: 5px;
+}
+
+/* THIS WAS HOMEPAGE ENTRY*/
+
+/* RANDOM DUMMY TEXT BOXES */
+.link-box{
+    text-decoration: none;
+    text-transform: none;
+    color: #222;
+    font-family: serif;
+}
+.link-box:hover{
+    text-decoration: none;
+    text-transform: none;
+    color: #888;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+}
+.box{
+    float:left;
+    width: 33.3%;
+    border: 1px black dotted;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+/* RANDOM DUMMY TEXT BOXES */
+
+/* Float Left Float Right dummy text */
+.article-box{
+    text-decoration: none;
+    text-transform: none;
+    width: 60%;
+    float:left;
+    color: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 5px;
+    border: 1px gold solid;
+    box-sizing: border-box
+}
+.aside-box{
+    text-decoration: none;
+    text-transform: none;
+    width: 40%;
+    float: right;
+    color: rgb(12, 105, 90);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 5px;
+    border: 1px gold solid;
+    box-sizing: border-box;
+}
+/* Float Left Float Right dummy text */
+
+/* Footer */
+#main-footer{
+    position: absolute;
+    bottom: 0px;
+    right: 35%;
+    left: 35%;
+    padding: 30px;
+    background-color: #222;
+}
+#main-footer h1{
+    text-align: center
+}
+.footer-button{
+    text-decoration: none;
+    text-transform: none;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+}
+.footer-button:hover{
+    color: dodgerblue;
+    background-color: dimgray;
+    padding: 10px;
+    border: 5px #999 solid;
+}
+/* Footer */
+
+
+
+
+
