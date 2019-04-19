@@ -1,6 +1,6 @@
 # Full-Website-For-Company-Startup
 
-# For every script that I've build, I used XAMPP servers
+# The version of the website runs on XAMPP servers.
 The HTML file goes in htdocs and the CGI file goes into the cgi folder.
 
 This is a very complex website. It has a lot of scripts and a good built security sistem.
